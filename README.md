@@ -9,7 +9,7 @@ Let's practice using `map`, `filter`, and `reduce`!
 Given the following array, filter the ones who are eligible to go to bars in the USA. ￼
 
 ```javascript
-var people = [
+const people = [
   { name: "Candice", age: 25 },
   { name: "Tammy", age: 30 },
   { name: "Allen", age: 20 },
@@ -110,7 +110,7 @@ Given an array of cities, return an array with the first letter of each city’s
 
 ```javascript
 // array of cities:
-var cities = ["miami", "barcelona", "madrid", 
+const cities = ["miami", "barcelona", "madrid", 
               "amsterdam", "berlin", "sao paulo", 
               "lisbon", "mexico city", "paris"];
 ```
@@ -199,7 +199,7 @@ const students = [
 Imagine we have a group of users with multiple attributes.
 
 ```javascript
-var users = [{ firstName: 'Bradley', lastName: 'Bouley', role: 'Full Stack Resident' },
+const users = [{ firstName: 'Bradley', lastName: 'Bouley', role: 'Full Stack Resident' },
              { firstName: 'Chloe', lastName: 'Alnaji', role: 'Full Stack Resident' },
              { firstName: 'Jonathan', lastName: 'Baughn', role: 'Enterprise Instructor' },
              { firstName: 'Michael', lastName: 'Herman', role: 'Lead Instructor' },
@@ -218,7 +218,7 @@ To start, let's take this array of words and phrases.
 With `.reduce()`, try to combine all of these into a single string! 
 
 ```javascript
-var epic = ['a', 'long', 'time', 'ago', 'in a', 'galaxy', 'far far', 'away'];
+const epic = ['a', 'long', 'time', 'ago', 'in a', 'galaxy', 'far far', 'away'];
 ```
 
 
@@ -272,7 +272,7 @@ We have to show the product on our website, but we do not want to show all the r
 Let's get back to our users and see how we can actually set the initial value for our reduce method!
 
 ```javascript
-var users = [{ firstName: 'Bradley', lastName: 'Bouley', role: 'Full Stack Resident' },
+const users = [{ firstName: 'Bradley', lastName: 'Bouley', role: 'Full Stack Resident' },
              { firstName: 'Chloe', lastName: 'Alnaji', role: 'Full Stack Resident' },
              { firstName: 'Jonathan', lastName: 'Baughn', role: 'Enterprise Instructor' },
              { firstName: 'Michael', lastName: 'Herman', role: 'Lead Instructor' },
