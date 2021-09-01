@@ -210,7 +210,15 @@ const users = [{ firstName: 'Bradley', lastName: 'Bouley', role: 'Full Stack Res
 
 We're going to send out a message to our users but just need their first name in order to personalize it. 
 
-We want to send out this message just to the Full Stack Residents, telling them what a wonderful job they're doing. 
+We want to send out this message just to the Full Stack Residents, telling them what a wonderful job they're doing.
+
+### chaining map() split() and join()
+
+Input is a string of multiple words with a single space between each of them. You should abbreviate the name and get the name initials.
+
+```javascript
+const input = 'George Raymond Richard Martin';
+```
 
 ### .reduce()
 
@@ -282,3 +290,11 @@ const users = [{ firstName: 'Bradley', lastName: 'Bouley', role: 'Full Stack Res
 ```
 
 We want to change up the structure of our users so that we can use the users' full name as the key and have their role as the value. Normally, this would take a lot of looping and initializing some variables. However, with reduce we can set an empty object as our starting point and do it all in a single go! try!
+
+### chaining filter() and reduce()
+
+Input is an array of numbers, return the sum of all of the positives ones. If the array is empty or there aren't any positive numbers return 0.
+```javascript
+const input = [ 1, -4, 12, 0, -3, 29, -150];
+```
+
