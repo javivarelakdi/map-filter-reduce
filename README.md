@@ -104,6 +104,24 @@ Given an array of numbers, filter out the ones that are not even, and are grea
 const numbers = [1, 60, 112, 123, 100, 99, 73, 45];
 ```
 
+### chaining filter() and map()
+
+Imagine we have a group of users with multiple attributes.
+
+```javascript
+const users = [{ firstName: 'Bradley', lastName: 'Bouley', role: 'Full Stack Resident' },
+             { firstName: 'Chloe', lastName: 'Alnaji', role: 'Full Stack Resident' },
+             { firstName: 'Jonathan', lastName: 'Baughn', role: 'Enterprise Instructor' },
+             { firstName: 'Michael', lastName: 'Herman', role: 'Lead Instructor' },
+             { firstName: 'Robert', lastName: 'Hajek', role: 'Full Stack Resident' },
+             { firstName: 'Wes', lastName: 'Reid', role: 'Instructor'},
+             { firstName: 'Zach', lastName: 'Klabunde', role: 'Instructor'}];
+```
+
+We're going to send out a message to our users but just need their first name in order to personalize it. 
+
+We want to send out this message just to the Full Stack Residents, telling them what a wonderful job they're doing.
+
 ### map()
 
 Given an array of cities, return an array with the first letter of each city’s name capitalized. 
@@ -193,24 +211,6 @@ const students = [
     }
 ]
 ```
-
-### chaining filter() and map()
-
-Imagine we have a group of users with multiple attributes.
-
-```javascript
-const users = [{ firstName: 'Bradley', lastName: 'Bouley', role: 'Full Stack Resident' },
-             { firstName: 'Chloe', lastName: 'Alnaji', role: 'Full Stack Resident' },
-             { firstName: 'Jonathan', lastName: 'Baughn', role: 'Enterprise Instructor' },
-             { firstName: 'Michael', lastName: 'Herman', role: 'Lead Instructor' },
-             { firstName: 'Robert', lastName: 'Hajek', role: 'Full Stack Resident' },
-             { firstName: 'Wes', lastName: 'Reid', role: 'Instructor'},
-             { firstName: 'Zach', lastName: 'Klabunde', role: 'Instructor'}];
-```
-
-We're going to send out a message to our users but just need their first name in order to personalize it. 
-
-We want to send out this message just to the Full Stack Residents, telling them what a wonderful job they're doing.
 
 ### chaining map() split() and join()
 
