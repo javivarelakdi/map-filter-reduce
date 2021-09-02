@@ -247,8 +247,8 @@ const averageRate = totalReviews/product.reviews.length; // <== averageRate = 3.
 
 
 newUsers = users.reduce((usersObj, user) => {
+    console.log(usersObj, user);
     const fullName = `${user.firstName} ${user.lastName}`;
     usersObj[fullName] = user.role;
-    console.log(usersObj, user);
     return usersObj;
 }, {});
